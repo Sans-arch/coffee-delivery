@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const PresentationContent = styled.div``
 
 export const MainImageArea = styled.div`
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -27,6 +27,7 @@ export const Subtitle = styled.h2`
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
+  width: 90%
 `
 
 export const TopicsSection = styled.div`
