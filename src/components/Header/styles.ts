@@ -5,7 +5,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 160px;
+  padding: 32px 0px;
 
   img {
     width: 85px;
@@ -25,6 +25,7 @@ export const LocationButton = styled.div`
   align-items: center;
   padding: 8px;
   border-radius: 6px;
+  cursor: default;
   
   svg {
     color: ${props => props.theme.product["purple-dark"]};

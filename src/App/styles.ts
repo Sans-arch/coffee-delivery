@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
 export const ApplicationContainer = styled.div`
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 `
