@@ -18,8 +18,13 @@ export const MainTitle = styled.h1`
   color: ${props => props.theme.base["base-title"]};
   font-family: 'Baloo 2', sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 16px;
+
+  // Laptop configs
+  @media (max-width: 1400px) {
+    font-size: 2.1rem;
+  }
 `
 
 export const Subtitle = styled.h2`
