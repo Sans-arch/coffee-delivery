@@ -1,12 +1,19 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  border: 2px solid red;
-  margin-top: 32px;
+  margin-top: 7rem;
 `
 
 export const Title = styled.h2`
-  color: ${props => props.theme.base['base-subtitle']}
+  color: ${props => props.theme.base['base-subtitle']};
   font-family: "Baloo 2", cursive;
-  border: 2px solid red;
+  font-size: 2rem;
+  margin-bottom: 34px;
+`
+
+export const CoffeesArea = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  gap: 32px;
 `
