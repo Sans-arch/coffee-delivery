@@ -13,6 +13,8 @@ export const Container = styled.div`
 
   p {
     color: #272221;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
   }
 `
 

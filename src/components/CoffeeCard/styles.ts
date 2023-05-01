@@ -60,6 +60,7 @@ export const CoffeePrice = styled.div`
   color: #574F4D;
   font-weight: 800;
   justify-content: space-between;
+  align-items: center;
 
   span {
     font-family: 'Roboto', sans-serif;
