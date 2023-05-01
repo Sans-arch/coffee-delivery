@@ -29,6 +29,7 @@ export const Container = styled.div`
   p {
     color: #8D8686;
     text-align: center;
+    font-size: 0.875rem;
   }
 `
 
@@ -41,4 +42,30 @@ export const Tag = styled.div`
   margin-bottom: 16px;
   font-size: 12px;
   text-transform: uppercase;
+`
+
+export const CoffeePrice = styled.div`
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 33px;
+  font-family: "Baloo 2", sans-serif;
+  color: #574F4D;
+  font-weight: 800;
+  justify-content: space-between;
+`
+
+export const CartButton = styled.div`
+  background: ${props => props.theme.product["purple-dark"]};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 100%;
+
+  svg {
+    color: ${props => props.theme.white};
+  }
 `

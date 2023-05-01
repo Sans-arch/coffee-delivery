@@ -14,6 +14,5 @@ export const Title = styled.h2`
 export const CoffeesArea = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* border: 2px solid red; */
   gap: 32px;
 `

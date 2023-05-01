@@ -1,10 +1,11 @@
+import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
+
 import {
   BoxIcon, CartIcon, ClockIcon, CoffeeIcon, Container, MainImageArea, MainTitle, PresentationContent,
   Subtitle, Topic, TopicsSection
 } from "./styles";
 
-import mainImage from "../../../../assets/main-image.svg"
-import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
+import mainImage from "../../assets/main-image.svg"
 
 export function Presentation() {
   return (

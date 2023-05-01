@@ -26,12 +26,12 @@ export const LocationButton = styled.div`
   padding: 8px;
   border-radius: 6px;
   cursor: default;
-  
+
   svg {
     color: ${props => props.theme.product["purple-dark"]};
     margin-right: 4px;
   }
-  
+
   span {
     color: ${props => props.theme.product["purple-dark"]};
     font-size: 14px;
@@ -48,7 +48,7 @@ export const CartButton = styled.div`
   padding: 8px;
   border-radius: 6px;
   cursor: pointer;
-  
+
   svg {
     color: ${props => props.theme.product["yellow-dark"]};
   }
