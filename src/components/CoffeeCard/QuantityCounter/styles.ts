@@ -8,6 +8,8 @@ export const Container = styled.div`
   gap: 6px;
   padding: 4px;
   border-radius: 6px;
+  box-sizing: border-box;
+  width: 4.5rem;
 
   p {
     color: #272221;

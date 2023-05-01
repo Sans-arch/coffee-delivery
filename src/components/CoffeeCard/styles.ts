@@ -33,6 +33,14 @@ export const Container = styled.div`
   }
 `
 
+export const TagsArea = styled.div`
+  display: flex;
+  /* border: 2px solid red; */
+  width: 100%;
+  justify-content: center;
+  gap: 0.75rem;
+`
+
 export const Tag = styled.div`
   background: #F1E9C9;
   border-radius: 100px;
@@ -40,7 +48,7 @@ export const Tag = styled.div`
   color: #C47F17;
   font-weight: 700;
   margin-bottom: 16px;
-  font-size: 12px;
+  font-size: 0.625rem;
   text-transform: uppercase;
 `
 
@@ -49,10 +57,20 @@ export const CoffeePrice = styled.div`
   overflow: hidden;
   width: 90%;
   margin-top: 33px;
-  font-family: "Baloo 2", sans-serif;
   color: #574F4D;
   font-weight: 800;
   justify-content: space-between;
+
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    margin-right: 3px;
+  }
+  p {
+    font-family: "Baloo 2", sans-serif;
+    font-size: 1.5rem;
+    color: #574F4D
+  }
 `
 
 export const CartButton = styled.div`
