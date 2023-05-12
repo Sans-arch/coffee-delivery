@@ -19,4 +19,4 @@ export const defaultTheme = {
     'base-subtitle': '#403937',
     'base-title': '#272221'
   },
-}
+} as const

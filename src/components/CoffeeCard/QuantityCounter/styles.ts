@@ -26,6 +26,14 @@ export const Minus = styled.button`
   margin-right: 4px;
   font-size: 1.4rem;
   padding-left: 4px;
+
+  &:hover {
+    color: ${props => props.theme.product["purple-dark"]};
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
   `
 
 export const Plus = styled.button`
@@ -36,4 +44,8 @@ export const Plus = styled.button`
   margin-left: 4px;
   font-size: 1.2rem;
   padding-right: 4px;
+
+  &:hover {
+    color: ${props => props.theme.product["purple-dark"]};
+  }
 `

@@ -14,7 +14,7 @@ export function QuantityCounter() {
 
   return (
     <Container>
-      <Minus onClick={handleMinus}>-</Minus>
+      <Minus onClick={handleMinus} disabled={quantity === 0}>-</Minus>
       <p>{quantity}</p>
       <Plus onClick={handlePlus}>+</Plus>
     </Container>
