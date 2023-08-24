@@ -1,9 +1,8 @@
-import { ThemeProvider } from "styled-components"
-
-import { GlobalStyle } from "../styles/global"
-import { defaultTheme } from "../styles/themes/default"
-import { ApplicationContainer } from "./styles"
-import { Layout } from "../Layout"
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "../styles/global";
+import { defaultTheme } from "../styles/themes/default";
+import { ApplicationContainer } from "./styles";
+import { Layout } from "../Layout";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <GlobalStyle />
       </ThemeProvider>
     </ApplicationContainer>
-  )
+  );
 }
 
-export default App
+export default App;
